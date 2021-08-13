@@ -1,0 +1,104 @@
+#container{
+    display: grid;
+    grid-template-rows: 30px 90px 80vh 120vh 100vh 100vh 45vh;
+    justify-content: fixed;
+}
+.envelope{
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    font-family: 'Poppins';
+}
+.phone{
+    color: #fff;
+    margin-right: 10px;
+    content: "\f095";
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.header{
+    max-width: 1200px;
+    padding: 0 15px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    
+    grid-template-rows:30px;  
+    float: left;
+   width: 90%;
+}
+.menu{
+   position: absolute;
+  left: 200px;
+  border: 3px solid;
+  grid-template-columns:right;
+
+}
+.footer1{
+    display: grid;
+    grid-template-columns:4fr;
+    justify-content: center;
+    
+}
+.footer2{
+    display: grid;
+    
+}
+.nav--link{    
+    display: block;
+    padding: 15px 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-left: 0;
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+}
+.right-side-box{
+    padding: 25px 0;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+}
+.contentlist{
+display: block;
+
+}
+.content.p{
+    display:inline-block;  
+}
+.twitter{
+    color: black;
+}
+.tt-post{
+    font-family: "Helvetica Neue", Helvetica, 'Lato';
+    color: #666;
+    font-size: 16px;
+    letter-spacing: .03em;
+}
+.page-title{
+    color: black;
+}
+.row-blog-post-list2{
+    display: inline-block;
+    
+}
+.single-post-list{
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+   
